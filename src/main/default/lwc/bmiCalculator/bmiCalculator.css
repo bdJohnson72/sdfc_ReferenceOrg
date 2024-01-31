@@ -1,0 +1,61 @@
+/**
+ * Created by bjohnson on 1/27/24.
+ */
+
+:host {
+    --dark-blue: #000435;
+    --white: #fff;
+    --lighter-blue: #1d1e33;
+    --pinkish: #e91e63;
+    --16px: 1rem;
+    --lwc-colorTextLabel: brown;
+
+}
+label{
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: var(--16px) var(--16px);
+}
+
+input{
+    color: var(--lighter-blue);
+    font-size: var(--16px);
+    padding: 8px;
+}
+.app{
+    background-image: url(/sfsites/c/resource/bmiAppBackground);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.calculator {
+    max-width: 480px;
+    text-align: center;
+    margin: 0 auto;
+    background: var(--dark-blue);
+    font-size: var(--16px);
+    border-radius: 10%;
+    padding: var(--16px) var(--16px);
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    padding: 1rem 0;
+    color: var(--white)
+}
+
+.bmi-info {
+    background: var(--lighter-blue);
+    padding: var(--16px);
+    border-bottom-left-radius: 38px;
+    border-bottom-right-radius: 38px;
+    color: var(--white);
+    font-size: 14px;
+}
+
+h2{
+    color: var(--pinkish);
+    font-size: 26px;
+}

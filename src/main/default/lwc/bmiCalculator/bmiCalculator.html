@@ -1,0 +1,50 @@
+<!--
+ - Created by bjohnson on 1/27/24.
+ -->
+
+<!-- Bmi Calculator -->
+<template>
+    <div class="app">
+    <div class="calculator">
+        <h1>BMI Calculator</h1>
+        <form action="">
+            <div class="slds-form-element">
+                <label class="slds-form-element__label slds-text-title_bold" for="input-height">
+                    <abbr class="slds-required" title="required">* </abbr>Height</label>
+                <div class="slds-form-element__control">
+                    <input type="text" id="input-height"
+                           placeholder="enter height"
+                           required
+                           class="slds-input" />
+                </div>
+            </div>
+            <div class="slds-form-element">
+                <label class="slds-form-element__label slds-text-title_bold" for="input-weight">
+                    <abbr class="slds-required" title="required">* </abbr>Weight</label>
+                <div class="slds-form-element__control">
+                    <input type="text" id="input-weight"
+                           placeholder="enter weight"
+                           required
+                           class="slds-input" />
+                </div>
+            </div>
+        </form>
+        <section class='bmi-info'>
+            <h2>What your BMI means</h2>
+            <p class="slds-var-m-bottom_medium">
+                Once you have measured your BMI you can determine your health weight range
+            </p>
+            <h3 class='slds-text-color_error'>Under 18.5</h3>
+            <p class='slds-var-m-bottom_medium'>
+                You are under weight
+            </p>
+            <h3 class='slds-text-color_success'>Between 18.5 and 24.9</h3>
+            <p class='slds-var-m-bottom_medium'>Healthy weight range</p>
+            <h3 class='slds-text-color_error'>25.0 to 29.9</h3>
+            <p class='slds-var-m-bottom_medium'>You are overweight</p>
+            <h3>Over 30</h3>
+            <p class='slds-var-m-bottom_medium'>You are obese</p>
+        </section>
+    </div>
+    </div>
+</template>
