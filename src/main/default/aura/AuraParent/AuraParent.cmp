@@ -1,0 +1,15 @@
+<!--
+ - Created by bjohnson on 2/1/24.
+ -->
+
+<aura:component description="AuraParent" implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name="message" type="String"/>
+    <div>
+        <p>{!v.message}</p>
+    </div>
+    <lightning:card title="Aura Parent with LWC" >
+        <div class="slds-p-around_medium">
+            <c:lwcAuraChild title="Hello from the Aura Comp" onsendmessage="{!c.handleMessage}"></c:lwcAuraChild>
+        </div>
+    </lightning:card>
+</aura:component>
