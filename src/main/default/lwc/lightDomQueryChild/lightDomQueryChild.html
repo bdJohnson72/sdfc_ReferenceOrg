@@ -1,0 +1,19 @@
+<!--
+ - Created by bjohnson on 2/1/24.
+ -->
+
+<!-- Light Dom Query Child -->
+<template lwc:render-mode="light">
+    <div class="slds-var-p-around_small">
+        <p class="lightDomParagraph">Click any button to change this text</p>
+        <div class="slds-var-m-top_small">
+            <lightning-button
+                onclick={handleButtonClick}
+                label="Change text">
+            </lightning-button>
+        </div>
+    </div>
+    <div class="test">
+        Can the parent change me
+    </div>
+</template>

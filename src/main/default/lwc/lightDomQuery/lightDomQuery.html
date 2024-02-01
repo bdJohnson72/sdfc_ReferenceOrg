@@ -1,0 +1,19 @@
+<!--
+ - Created by bjohnson on 2/1/24.
+ -->
+
+<!-- Light Dom Query -->
+<template>
+    <lightning-card title="light dom" icon-name="custom:custom5">
+        <div class="slds-var-m-around_medium">
+            <lightning-button
+                onclick={handleButtonClick}
+                label="change text on child">
+            </lightning-button>
+            <div class="slds-var-m-around_medium">
+                <c-light-dom-query-child class="slds-show slds-is-relative"></c-light-dom-query-child>
+            </div>
+
+        </div>
+    </lightning-card>
+</template>
