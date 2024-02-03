@@ -8,6 +8,8 @@
     --lighter-blue: #1d1e33;
     --pinkish: #e91e63;
     --16px: 1rem;
+    --12px: .75rem;
+    --20px: 1.25rem;
     --lwc-colorTextLabel: brown;
 
 }
@@ -18,9 +20,21 @@ label{
 }
 
 input{
-    color: var(--lighter-blue);
+    color: var(--dark-blue);
     font-size: var(--16px);
     padding: 8px;
+}
+
+button{
+    font-size: var(--16px);
+    padding: 12px;
+    color: var(--white);
+    background: var(--standard-blue);
+    border-color: var(--standard-blue);
+}
+
+.results{
+    color: var(--white);
 }
 .app{
     background-image: url(/sfsites/c/resource/bmiAppBackground);
