@@ -1,0 +1,8 @@
+/* global.css */
+
+:root{
+    --12px: .75rem;
+    --16px: 1rem;
+    --20px: 1.25rem;
+    --standard-blue: #12708f;
+}
