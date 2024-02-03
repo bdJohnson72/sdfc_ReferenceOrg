@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "bmi",
+  "contentBody" : {
+    "activeViewId" : "bmi",
+    "configurationTags" : [ ],
+    "pageAccess" : "Public",
+    "routeType" : "custom-bmi",
+    "urlPrefix" : "bmi"
+  }
+}

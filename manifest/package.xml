@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>*</members>
@@ -31,6 +31,28 @@
     <types>
         <members>*</members>
         <name>StaticResource</name>
+    </types>
+    <types>
+        <members>fflib_QueryFactory_crossobject_fieldsets_not_allowed_error</members>
+        <members>fflib_QueryFactory_fieldset_wrong_sobject_error</members>
+        <members>fflib_QueryFactory_recursive_subquery_error</members>
+        <members>fflib_QueryFactory_subquery_invalid_relationship</members>
+        <members>fflib_security_error_field_not_insertable</members>
+        <members>fflib_security_error_field_not_readable</members>
+        <members>fflib_security_error_field_not_updateable</members>
+        <members>fflib_security_error_object_not_deletable</members>
+        <members>fflib_security_error_object_not_insertable</members>
+        <members>fflib_security_error_object_not_readable</members>
+        <members>fflib_security_error_object_not_updateable</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>lwc_examples</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>lwc_examples1</members>
+        <name>DigitalExperienceConfig</name>
     </types>
     <version>59.0</version>
 </Package>

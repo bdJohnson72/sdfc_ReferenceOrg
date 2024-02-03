@@ -1,0 +1,58 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "bmi",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"2c03eb09-af49-4ac7-a475-bd454ce5a91f\",\"columns\":[{\"UUID\":\"e70d5aea-f5e7-4a5d-97c0-7e0b8e06aea5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:bmiCalculator",
+              "id" : "2e265bbd-723b-48db-84b3-776602111bdd",
+              "type" : "component"
+            } ],
+            "id" : "e70d5aea-f5e7-4a5d-97c0-7e0b8e06aea5",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "2c03eb09-af49-4ac7-a475-bd454ce5a91f",
+          "type" : "component"
+        } ],
+        "id" : "54e60562-9852-4446-8301-458cf2f92bb2",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "bmi",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "8c98761d-b284-45f6-a249-d82c605658b6",
+          "type" : "component"
+        } ],
+        "id" : "63a835fa-cb37-488f-9904-c0fd70a74879",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "cd6bc6aa-3abc-47df-9d71-09391ca158e8",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-bmi"
+  }
+}
